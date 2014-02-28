@@ -1,0 +1,18 @@
+<section class="main-container">
+<div>
+    <span id="guest-entry-header">Guestbook Entries: </span>
+    <?php foreach ($this->entries as $entry): ?>
+        <div id="guest-entry-body">
+            <ul>
+                <li><a href="/index/update/">Update</a></li>
+            </ul>
+            <ul>
+                <li><strong>First name: </strong><?php echo $this->escape($entry->first_name) ?></li>
+                <li><strong>Last name: </strong><?php echo $this->escape($entry->last_name) ?></li>
+                <li><strong>Email: </strong><?php echo $this->escape($entry->email) ?></li>
+                <li><strong>Comment: </strong><?php echo $this->escape($entry->comment) ?></li>
+            </ul>
+        </div>
+    <?php endforeach ?>
+</div>
+</section>

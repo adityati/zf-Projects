@@ -1,0 +1,59 @@
+/* 
+    Document   : default
+    Created on : Jun 22, 2013, 8:21:46 PM
+    Author     : Aditya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#header
+{
+    background-color: #EEEEEE; 
+    height: 30px;
+    margin-left: 35%;
+    border-radius: 5px;
+}
+
+#navigation
+{
+    float:left;
+    width:30%;
+    border:1px solid appworkspace;
+    border-radius:5px;
+}
+
+.main-container
+{
+    border: 1px solid pink;
+    margin-left: 35%;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+   
+    
+}
+
+#guest-entry-header
+{
+    margin-left: 45%;
+}
+
+#guest-entry-body
+{
+    border:1px solid activecaption;
+    background: white;
+    border-radius: 15px 0 15px 0;
+    box-shadow: 10px 10px 10px #888;
+    margin:40px;
+    width:500px;
+}
+
+#guest-entry-body ul
+{
+    list-style: none;
+    line-height: 35px;
+}
